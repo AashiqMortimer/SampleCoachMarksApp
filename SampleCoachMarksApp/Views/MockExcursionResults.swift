@@ -84,7 +84,3 @@ struct SearchCard: View {
         static let buttonText = "Got it"
     }
 }
-
-#Preview {
-    MockExcursionResults()
-}
