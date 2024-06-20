@@ -29,7 +29,6 @@ struct MockExcursionResults: View {
                 SearchCard(coachMark: _showCoachMark, isEnabled: index == 1)
                     .onAppear(perform: {
                         if index == 10 {
-//                            $showCoachMark.incrementViewCount(for: _showCoachMark)
                             print("View: \($showCoachMark.viewCounts)")
                             print("Interaction: \($showCoachMark.interactionFlags)")
                         }
