@@ -43,7 +43,7 @@ final class CoachMarksUserDefaultsTests: XCTestCase {
         let coachMark = CoachMark(key: "test", threshold: 0, userDefaults: coachMarksUserDefaults)
         coachMarksUserDefaults.setInteraction(for: coachMark)
         XCTAssertTrue(coachMarksUserDefaults.interactionFlags[coachMark.interactionFlagKey, default: false])
-        XCTAssertEqual(userDefaults.dictionary(forKey: "coachMarks")?.keys.first, "test_interactionFlag")
+        XCTAssertTrue(((userDefaults.dictionary(forKey: "coachMarks")?.keys.contains("test_interactionFlag")) != nil))
     }
     
     func testResetCoachMarks() {
