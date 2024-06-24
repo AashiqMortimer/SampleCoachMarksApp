@@ -59,6 +59,9 @@ struct SearchCard: View {
                 
                 Button {
                     shortlistIconTapped.toggle()
+                    if let coach = coachMark {
+                        coach.projectedValue.setInteraction(for: coach)
+                    }
                 } label: {
                     Image(systemName: shortlistIconTapped ? "heart.fill" : "heart")
                         .resizable()
