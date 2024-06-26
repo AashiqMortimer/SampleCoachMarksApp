@@ -82,7 +82,7 @@ struct SearchCard: View {
     
     struct Constants {
         static let shortlistTitle = "Add to your shortlist"
-        static let shortlistMessage = "You can save and compare your favourite holidays by adding them to your shortlist"
+        static let shortlistMessage = "You can save and compare your favourite experiences by adding them to your shortlist"
         static let buttonText = "Got it"
     }
 }
