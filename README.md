@@ -10,3 +10,9 @@ Views folder includes code to support the demonstration of CoachMarks in a strea
 SampleCoachMarksAppTests contains the unit and snapshot test for the project. 
 
 All other code included is either boilerplate utility code to assist the running of the sample app. 
+
+## Setup
+
+To run the project, you will need to download and install XCode. 
+
+Afterwards, you can open the code from this repository in XCode and run a build internally. 
